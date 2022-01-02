@@ -3,19 +3,6 @@
  * @return {number}
  */
 
-// const getLength = (arrOfStrings, i) => {
-//   let wordLength;
-//   if (arrOfStrings[i] === arrOfStrings[i + 1]) {
-//     wordLength = 0;
-//     console.log(arrOfStrings.slice(i));
-//     // getLength(arrOfStrings.slice(i));
-//   } else {
-//     wordLength += 1;
-//   }
-
-//   return wordLength;
-// };
-
 var lengthOfLongestSubstring = function (s) {
   let map = {};
   let start = 0;
